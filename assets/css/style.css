@@ -554,7 +554,7 @@ td {
     max-width: 260px;
     color: #B6B5B5;
         font-family: Poppins;
-        font-size: 18px;
+        font-size: 10px;
         font-style: normal;
         font-weight: 400;
         line-height: 180%;
@@ -562,7 +562,7 @@ td {
 .phases{
     color: var(--white, #FFF);
         font-family: Poppins;
-        font-size: 36px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
@@ -573,15 +573,15 @@ td {
     position: absolute;
     width: 6px;
     background-color: white;
-    top: 5%;
-    bottom: 20%;
+    top: 2%;
+    bottom: 22%;
     left: 50%;
     margin-left: -3px;
 }
 
 /* Container around content */
 .timeline_container {
-    padding: 10px 60px;
+    /* padding: 10px 60px; */
     position: relative;
     background-color: inherit;
     width: 50%;
@@ -797,6 +797,8 @@ tr>td{
     /* Place the timelime to the left */
     .timeline::after {
         left: 31px;
+        top: 11%;
+        bottom: 15%;
     }
 
     /* Full-width containers */
@@ -832,7 +834,27 @@ tr>td{
     .align_sm_start {
         align-items: start;
     }
+    .r_para{
+        font-size: 6px;
+        
+    }
+    .r_para{
+        max-width: 100px;
+    }
 }
+@media (min-width:600px) {
+    .timeline:after{
+top: 5%;
+bottom: 19%;
+    }
+    .r_para{
+        font-size: 18px;
+    }
+    .phases{
+        font-size: 36px;
+    }
+}
+
 
 @media (min-width:576px) {
     .transform-sm {
