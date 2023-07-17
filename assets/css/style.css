@@ -85,6 +85,12 @@
     border: none;
     border-radius: 23.5px;
     background: var(--gradient-h, linear-gradient(90deg, #FFA800 0%, #F06500 100%));
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
 }
 
 .py_23 {
