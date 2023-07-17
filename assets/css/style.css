@@ -176,7 +176,10 @@ width: 60%;
 body {
     background-color: black;
 }
-
+nav{
+    position: sticky;
+    top: 0;
+}
 .menu span {
     display: flex;
     width: 40px;
