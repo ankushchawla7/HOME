@@ -862,9 +862,9 @@ tr>td {
 
     }
 
-    .r_para {
+    /* .r_para {
         max-width: 100px;
-    }
+    } */
 }
 
 @media (min-width:600px) {
