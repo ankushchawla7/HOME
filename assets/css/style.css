@@ -503,19 +503,14 @@ table {
 }
 
 tbody {
-    border-radius: 10px !important;
     background: linear-gradient(136deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%);
-    /* backdrop-filter: blur(16px); */
-    border: 1px solid #444444 !important;
-    color: #FFF;
-
-    /* Body */
+     backdrop-filter: blur(16px);
+    color: #FFF; 
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 180%;
-    /* 32.4px */
 }
 
 
@@ -779,6 +774,26 @@ td {
 
 tr>td {
     color: #B8B8B8;
+}
+
+table{
+    border-collapse: separate !important;
+    border-spacing: 0;
+}
+tbody tr td:first-of-type{
+    border-left: 2px solid #3B3A3A;
+}
+tbody tr:last-of-type td{
+    border-bottom: 2px solid #3B3A3A;
+}
+tbody tr td:last-child {
+    border-right: 2px solid #3B3A3A;
+}
+tbody tr:last-of-type td:first-of-type{
+    border-bottom-left-radius: 20px;
+}
+tbody tr:last-of-type td:last-of-type {
+    border-bottom-right-radius: 20px;
 }
 
 
